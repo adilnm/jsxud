@@ -7,8 +7,8 @@ import Comments from "./components/Comments";
 const App = () => {
   return (
       <div>
-          <Comments/>
-          <Comments/>
+          <Comments name={'Sam'}/>
+          <Comments name={'Adil'}/>
       </div>
   )
 };

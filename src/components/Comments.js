@@ -1,7 +1,7 @@
 import React from "react";
 import faker from "faker"
 
-export default function Comments() {
+export default function Comments(props) {
   return (
     <div className="ui container comments">
       <div className="comment">
@@ -10,7 +10,7 @@ export default function Comments() {
         </a>
         <div className="content">
           <a href="/" className="author">
-            Sam
+            {props.name}
           </a>
           <div className="metadata">
             <span className="date">Today at 6:00pm</span>
